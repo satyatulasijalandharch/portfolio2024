@@ -1,0 +1,26 @@
+[
+  {
+    "title": "AWS",
+    "imageSrc": "skills/aws.png"
+  },
+  {
+    "title": "Docker",
+    "imageSrc": "skills/docker.png"
+  },
+  {
+    "title": "GIT",
+    "imageSrc": "skills/git.png"
+  },
+  {
+    "title": "Jenkins",
+    "imageSrc": "skills/jenkins.png"
+  },
+  {
+    "title": "Ansible",
+    "imageSrc": "skills/ansible.png"
+  },
+  {
+    "title": "Terraform",
+    "imageSrc": "skills/terraform.png"
+  }
+]
