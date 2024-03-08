@@ -13,7 +13,7 @@ export const Hero = () => {
            Explore my portfolio to discover my skills, projects, and aspirations.
         </p>
         <div className={styles.buttonsContainer}>
-          <a href="mailto:satyatulasijalandharch2@email.com" className={styles.contactBtn}>
+          <a href="mailto:satyatulasijalandharch2@gmail.com" className={styles.contactBtn}>
             Contact Me
           </a>
           <a href="/path/to/your/resume.pdf" download="Satya_Tulasi_Resume.pdf" className={styles.resumeBtn}>
