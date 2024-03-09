@@ -1,0 +1,16 @@
+{
+    "name": "Vite.js Docker",
+    "image": "node:16",
+    "forwardPorts": [3000],
+    "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+    ],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "postCreateCommand": "npm install",
+    "appPort": [3000],
+    "workspaceMount": "source=${localWorkspaceFolder}/.,target=/workspace,type=bind,consistency=cached",
+    "workspaceFolder": "/workspace"
+}
