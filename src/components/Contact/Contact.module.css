@@ -36,7 +36,7 @@
 .links {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center; /* Center links in mobile view */
   list-style: none;
   gap: 20px; /* Increase the gap for better spacing */
 }
@@ -44,7 +44,7 @@
 .link {
   display: flex;
   align-items: center;
-  gap: 15px; /* Adjust gap for better spacing */
+  width: 100%; /* Set width to 100% to ensure equal width */
 }
 
 .link a {
@@ -54,12 +54,14 @@
   font-weight: 500; /* Increase font weight for links */
   letter-spacing: 1px; /* Slightly reduce letter-spacing */
   transition: color 0.3s ease; /* Add a smooth color transition on hover */
+  width: 100%; /* Set width to 100% to ensure equal width */
 }
 
 .link a:hover {
   color: var(--color-accent); /* Change color on hover for emphasis */
 }
 
+/* Adjustments for mobile view */
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
@@ -72,5 +74,13 @@
 
   .links {
     align-items: center;
+  }
+
+  .link {
+    gap: 5px; /* Adjust gap for better spacing */
+  }
+
+  .link a {
+    font-size: 20px; /* Reduce font size for links in mobile view */
   }
 }
